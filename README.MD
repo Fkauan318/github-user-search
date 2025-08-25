@@ -46,7 +46,7 @@ github-user-search/
 
 ├── README.md # Documentação do projeto
 
-├── css/ # Arquivos de estilo
+├── style/ # Arquivos de estilo
 
 │ └── style.css
 
