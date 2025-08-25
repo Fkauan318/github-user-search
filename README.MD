@@ -43,15 +43,21 @@ Este projeto é ideal para iniciantes em JavaScript, consumo de APIs e manipula�
 github-user-search/
 │
 ├── index.html # Página principal
+
 ├── README.md # Documentação do projeto
-│
+
 ├── css/ # Arquivos de estilo
+
 │ └── style.css
+
 │
 ├── script/ # Arquivos JavaScript
+
 │ └── script.js
+
 │
 └── assets/ # Recursos adicionais
+
 ├── images/ # Imagens e GIFs
 
 ---
