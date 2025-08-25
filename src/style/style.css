@@ -117,3 +117,63 @@ button:hover {
 .card a:hover {
   background: #5c3b82;
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;           /* Ocupa quase toda a largura da tela */
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 20px;      /* Reduz o tamanho do título */
+  }
+
+  .busca {
+    flex-direction: column; /* Input e botão empilhados */
+    gap: 10px;              /* Espaço entre input e botão */
+  }
+
+  input {
+    width: 100%;           /* Input ocupa toda a largura */
+    border-radius: 12px;   /* Mantém borda arredondada */
+  }
+
+  button {
+    width: 100%;           /* Botão ocupa toda a largura */
+    border-radius: 12px;   /* Mantém borda arredondada */
+  }
+
+  .card {
+    padding: 20px 10px;     /* Ajusta padding do card */
+    min-height: auto;       /* Ajusta altura do card */
+  }
+
+  .card img {
+    width: 100px;           /* Reduz tamanho da foto */
+  }
+
+  .card h2 {
+    font-size: 18px;        /* Reduz o tamanho do nome */
+  }
+
+  .card a {
+    padding: 6px 12px;      /* Ajusta botão de link */
+    font-size: 14px;
+  }
+}
+
+/* Responsividade para tablets (largura média) */
+@media (max-width: 768px) {
+  .container {
+    width: 70%;            /* Largura ajustada para tablets */
+  }
+
+  input {
+    width: 75%;
+  }
+
+  button {
+    width: auto;            /* Mantém o botão no lado do input */
+  }
+}

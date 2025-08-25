@@ -36,6 +36,30 @@ Este projeto é ideal para iniciantes em JavaScript, consumo de APIs e manipula�
 
 ---
 
+## Responsividade
+
+O projeto foi desenvolvido para se adaptar a diferentes tamanhos de tela, garantindo boa experiência em **celulares, tablets e desktops**.  
+
+### Ajustes principais:
+- **Celulares (até 480px de largura):**
+  - Input e botão empilhados verticalmente.
+  - Elementos ocupam 100% da largura disponível.
+  - Card do usuário com padding reduzido e altura ajustável.
+  - Foto do usuário menor para caber na tela.
+  - Texto e botões menores para melhor visualização.
+
+- **Tablets (até 768px de largura):**
+  - Container ocupa cerca de 70% da largura da tela.
+  - Input ocupa 75% da largura, botão permanece ao lado.
+  - Layout mantém proporções e legibilidade.
+
+### Tecnologias utilizadas:
+- **Media Queries do CSS** para detectar largura da tela.
+- Ajuste de **flexbox e largura dos elementos**.
+- Redução de **font-size e padding** conforme necessário.
+
+> Essas adaptações garantem que o usuário consiga navegar, digitar e visualizar os resultados sem precisar de zoom ou rolagem horizontal.
+
 ## Estrutura de Pastas
 github-user-search/
 │
