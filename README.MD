@@ -15,6 +15,7 @@ Este projeto é ideal para iniciantes em JavaScript, consumo de APIs e manipula�
 ---
 
 ## Tecnologias Utilizadas
+
 - **HTML5** – Estrutura da página  
 - **CSS3** – Estilização moderna  
 - **JavaScript (Vanilla JS)** – Requisições à API e manipulação do DOM  
@@ -23,6 +24,7 @@ Este projeto é ideal para iniciantes em JavaScript, consumo de APIs e manipula�
 ---
 
 ## Funcionalidades
+
 1. Digitar o **username** do GitHub no campo de busca.  
 2. Clicar em **Buscar** ou pressionar **Enter**.  
 3. Exibir dinamicamente:
@@ -61,23 +63,30 @@ O projeto foi desenvolvido para se adaptar a diferentes tamanhos de tela, garant
 > Essas adaptações garantem que o usuário consiga navegar, digitar e visualizar os resultados sem precisar de zoom ou rolagem horizontal.
 
 ## Estrutura de Pastas
+
 github-user-search/
-│
+
 ├── index.html # Página principal
+
 ├── README.md # Documentação do projeto
-│
-├── css/ # Arquivos de estilo
+
+├── style/ # Arquivos de estilo
+
 │ └── style.css
-│
+
+
 ├── script/ # Arquivos JavaScript
-│ └── script.js
-│
+ └── script.js
+
+
 └── assets/ # Recursos adicionais
+
 ├── images/ # Imagens e GIFs
 
 ---
 
 ## Como Usar
+
 1. Clone ou baixe o projeto:
 ```bash
 git clone https://github.com/seu-usuario/github-user-search.git
@@ -90,5 +99,6 @@ Clique em Buscar ou pressione Enter.
 Veja os dados do usuário exibidos na tela.
 
 Autor
+
 **Francisco Kauan** – [https://github.com/Fkauan](https://github.com/dashboard)
 Portfólio de projeto para aprendizado e apresentação de habilidades em front-end.
