@@ -62,25 +62,6 @@ O projeto foi desenvolvido para se adaptar a diferentes tamanhos de tela, garant
 
 > Essas adaptações garantem que o usuário consiga navegar, digitar e visualizar os resultados sem precisar de zoom ou rolagem horizontal.
 
-## Estrutura de Pastas
-
-github-user-search/
-
-├── index.html # Página principal
-
-├── README.md # Documentação do projeto
-
-├── style/ # Arquivos de estilo
-└── style.css
-
-
-├── script/ # Arquivos JavaScript
-└── script.js
-
-└── assets/ # Recursos adicionais
-
-├── images/ # Imagens e GIFs
-
 ---
 
 ## Como Usar
