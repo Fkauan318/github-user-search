@@ -71,13 +71,11 @@ github-user-search/
 ├── README.md # Documentação do projeto
 
 ├── style/ # Arquivos de estilo
-
-│ └── style.css
+└── style.css
 
 
 ├── script/ # Arquivos JavaScript
- └── script.js
-
+└── script.js
 
 └── assets/ # Recursos adicionais
 
